@@ -42,18 +42,5 @@ public class HomePage {
 		loginLink.click();
 	}
 	
-	public boolean isHomeLinkDisplayed() {
-		return homeLink.isDisplayed();
-	}
-	public boolean isPackageDisplayed() {
-		return packagesLink.isDisplayed();
-	}
 	
-	public boolean isAboutDisplayed() {
-		return aboutLink.isDisplayed();
-	}
-	
-	public boolean isLoginDisplayed() {
-		return loginLink.isDisplayed();
-	}
 }
