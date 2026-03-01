@@ -3,6 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
+      <class name="Tests.PackageTest">
+        <methods>
+          <include name="verifyCompletePackageFlow"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifySortOption"/>
+        </methods>
+      </class> <!-- Tests.PackageTest -->
+=======
       <class name="Tests.LoginTest">
         <methods>
           <include name="TC_01_invalidpasswordlogin"/>
@@ -10,6 +20,7 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- Tests.LoginTest -->
+>>>>>>> 6ae69710da56a173e4f9566c85ef32e3d964763c
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
