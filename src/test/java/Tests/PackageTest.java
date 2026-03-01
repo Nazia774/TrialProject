@@ -45,7 +45,7 @@ public class PackageTest  {
 	   @Test
 	    public void verifySortOption() {
 		   packagePage = new PackagePage(driver);
-	        packagePage.selectSortOption("Price: Low to High");
+	        packagePage.selectSortOption("Price low to high");
 	    }
 	   
 	   @Test
@@ -54,10 +54,9 @@ public class PackageTest  {
 
 	        packagePage.clickPakages("Kerala");
 	        packagePage.clickType();
-	        packagePage.selectSortOption("Price: High to Low");
+	        packagePage.selectSortOption("Price high to low");
 	        packagePage.clickSearch();
 	    }
-
 	   
 	   @AfterClass
 	    public void tearDown() {
